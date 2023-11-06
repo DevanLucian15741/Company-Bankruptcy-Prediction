@@ -130,4 +130,7 @@ print(c(paste0("F1-score of LR with all features: ",F1_Score(Prediction,TestSet$
 Confusion_Matrix <-confusionMatrix(data=as.factor(Prediction),TestSet$Bankrupt.)
 Confusion_Matrix
 
+# Visualize Confusion Matrix
+fourfoldplot(as.table(Confusion_Matrix),color=c("green","red"),main = "Confusion Matrix")
+
 # rm(list=ls())
