@@ -6,9 +6,4 @@ This is our Data Mining project which uses the dataset that can be found at http
 "Accuracy of LR with all features: 97.0695970695971%"
 "F1-score of LR with all features: 0.985041136873598"
 
-Confusion Matrix and Statistics
-
-          Reference
-Prediction   NO  YES
-       NO  1317   33
-       YES    7    8
+![image](https://github.com/meowton27/Company-Bankruptcy-Prediction/assets/90786930/8707b113-a0e9-4450-b65f-0ba105cc140f)
